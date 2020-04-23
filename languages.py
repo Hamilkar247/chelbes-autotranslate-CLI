@@ -13,3 +13,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-k", help="show only keys")
+args = parser.parse_args()
