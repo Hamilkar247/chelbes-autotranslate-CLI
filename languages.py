@@ -1,9 +1,8 @@
-#!/usr/bin/env python
-
 import sys
 import googletrans
 from pprint import pprint
 import argparse
+
 
 def main():
     if len(sys.argv) < 2 :
