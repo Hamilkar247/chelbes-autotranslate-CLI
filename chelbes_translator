@@ -1,0 +1,6 @@
+#!/bin/bash
+REAL=$(dirname "$(realpath "$@")")
+echo "$REAL"
+PATH="$REAL"/venv/bin:"$PATH"
+python "$REAL"/chelbes_translator.py "$@"
+
