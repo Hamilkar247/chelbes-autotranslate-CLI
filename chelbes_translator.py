@@ -10,8 +10,7 @@ def def_params():
             description=
 """
 Script to translate sentence with google
-EXAMPLE: python chelbes_translator -l -f pl -to eng -s polska\ dla\ polaków 
-prosze nie stosować myslnikow w zdaniu ! też zalecane jest by sentence było ostatnim argumentem komendy
+EXAMPLE: python chelbes_translator -f pl -to eng -s \"polska dla polaków\" -l
 """
     )
     #action="store_true" sprawia że potem już nie musze podawać liczby/stringa do tego argumentu
